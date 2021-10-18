@@ -1,5 +1,6 @@
 PennController.DebugOff(); 
 PennController.ResetPrefix(null);
+PreloadZip("https://github.com/cameliableotu/primingdenominals/blob/master/chunk_includes/Lightedsmallerimages.zip");
 CheckPreloaded();
 PennController.SetCounter( "setcounter" );
 PennController.Sequence( "setcounter","Hi there!", "preexperiment", randomize("test"), "send" , "final")
